@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient2"
+    tools:context=".QuizTimeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:text="Which country does this flag\n belong to?"
+            android:textColor="#040000"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="2"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+
+            android:onClick="clickedButton1"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:onClick="clickedButton2"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:onClick="clickedButton3"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:onClick="clickedButton4"
+            android:text="Button" />
+    </LinearLayout>
+</RelativeLayout>
